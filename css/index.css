@@ -613,6 +613,10 @@ a .t .wrap .des {
   font-size: .132rem;
 }
 
+.swiper-col-inner, .hor-view {
+  position: relative;
+}
+
 .swiper-col-inner::after, .hor-view::after {
   content: '';
   display: block;
@@ -621,7 +625,6 @@ a .t .wrap .des {
 
 .swiper-col-inner .b1, .hor-view .b1 {
   opacity: .8;
-  float: left;
   width: 66.66%;
 }
 
@@ -633,8 +636,11 @@ a .t .wrap .des {
 
 .swiper-col-inner .b2, .hor-view .b2 {
   opacity: .8;
-  float: left;
+  float: right;
   width: 33.33%;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .swiper-col-inner .b2 img, .hor-view .b2 img {
@@ -699,4 +705,23 @@ a .t .wrap .des {
   background: url("../image/xin.png") no-repeat center center;
   background-color: #c4c4c4;
   background-size: .15rem;
+}
+
+/* 猜你喜欢*/
+.guessulikeCon {
+  width: 100%;
+  float: left;
+  padding: 0 .096rem;
+  box-sizing: border-box;
+}
+
+.guessulikeCon .pro-list {
+  list-style: none;
+  padding: 0;
+}
+
+.guessulikeCon .pro-list li {
+  padding: 0 .096rem;
+  width: 50%;
+  box-sizing: border-box;
 }
