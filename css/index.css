@@ -654,6 +654,7 @@ a .t .wrap .des {
   text-align: center;
   background-color: #fff;
   position: relative;
+  right: auto;
   bottom: 1px;
 }
 
@@ -711,7 +712,7 @@ a .t .wrap .des {
 .guessulikeCon {
   width: 100%;
   float: left;
-  padding: 0 .096rem;
+  padding: 0 .055rem;
   box-sizing: border-box;
 }
 
@@ -721,7 +722,93 @@ a .t .wrap .des {
 }
 
 .guessulikeCon .pro-list li {
-  padding: 0 .096rem;
+  padding: 0 .055rem;
   width: 50%;
   box-sizing: border-box;
+  margin-bottom: .11rem;
+  float: left;
+}
+
+.guessulikeCon .pro-list li a {
+  display: block;
+  background: #fff;
+}
+
+.guessulikeCon .pro-list li a img {
+  width: 100%;
+  height: 100%;
+}
+
+.guessulikeCon .pro-list li .info-bar {
+  padding: .0414rem .0552rem;
+  background-color: #fff;
+  position: relative;
+}
+
+.guessulikeCon .pro-list li .info-bar .pro-title {
+  height: .42rem;
+  margin-bottom: .04rem;
+  overflow: hidden;
+}
+
+.guessulikeCon .pro-list li .info-bar .e-price {
+  color: #e21d1d;
+  font-size: 0.16rem;
+  line-height: .19rem;
+  display: block;
+  padding-bottom: .03rem;
+}
+
+.app-down {
+  width: 100%;
+}
+
+.app-down a {
+  display: block;
+}
+
+.app-down a img {
+  width: 100%;
+}
+
+#footer {
+  margin-top: .132rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+#footer .wbox {
+  padding: 0;
+  margin: 0;
+  height: .53rem;
+  line-height: .53rem;
+}
+
+#footer .wbox li {
+  list-style: none;
+  width: 20%;
+  float: left;
+  position: relative;
+}
+
+#footer .wbox li a {
+  display: block;
+  font-size: .15rem;
+  color: #333;
+}
+
+#footer .wbox li span {
+  width: 1px;
+  height: .15rem;
+  position: absolute;
+  margin: auto;
+  background-color: #ededed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#footer .copyright {
+  padding: .055rem .16rem .41rem .16rem;
+  color: #909090;
 }
