@@ -622,20 +622,19 @@ a .t .wrap .des {
 .swiper-col-inner .b1, .hor-view .b1 {
   opacity: .8;
   float: left;
-  margin: .01rem;
-  width: 1.24rem;
-  height: 1.26rem;
+  width: 66.66%;
 }
 
 .swiper-col-inner .b1 img, .hor-view .b1 img {
   border: 1px solid #ddd;
   display: block;
+  margin: .01rem;
 }
 
 .swiper-col-inner .b2, .hor-view .b2 {
   opacity: .8;
   float: left;
-  width: .615rem;
+  width: 33.33%;
 }
 
 .swiper-col-inner .b2 img, .hor-view .b2 img {
