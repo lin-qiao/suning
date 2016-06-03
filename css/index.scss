@@ -410,6 +410,7 @@ $img:'../image/';
 .adapt{
   display: block;
   border-bottom:1px solid #f2f2f2;
+  overflow: hidden;
   img{
     width:100%;
   }
@@ -489,12 +490,69 @@ $img:'../image/';
   width:100%;
   float: left;
 }
+.row-a{
+  padding-left:.1rem;
+}
 a .t{
   height:.7rem;
   img{
     width:.44rem;
     height:.44rem;
     border-radius: 50%;
-    margin:auto 0;
+    float: left;
+    margin:.132rem 0;
   }
+  .wrap{
+    float: left;
+    margin:.132rem 0;
+    width:1.28rem;
+    span{
+      display: block;
+      padding-left:.11rem;
+      height:.22rem;
+      line-height: .22rem;
+      font-size: .16rem;
+      color:#333;
+    }
+    .des{
+      color:#999;
+      font-size: .132rem;
+    }
+  }
+}
+.row-a .hor-view{
+  &::after{
+    content:'';
+    display: block;
+    clear: both;
+  }
+  .b1{
+    opacity: .8;
+    float: left;
+    margin:.01rem;
+    width:1.24rem;
+    height:1.26rem;
+    img{
+      border:1px solid #ddd;
+      display: block;
+    }
+  }
+  .b2{
+    opacity: .8;
+    float: left;
+    width:.615rem;
+    img{
+      border:1px solid #ddd;
+      margin: .005rem;
+    }
+  }
+}
+#v6-banner-pagination{
+  width:100%;
+  height:.33rem;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+  bottom:1px;
+
 }
