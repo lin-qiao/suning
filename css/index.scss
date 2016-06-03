@@ -407,8 +407,9 @@ $img:'../image/';
   }
 }
 
-%a{
+.adapt{
   display: block;
+  border-bottom:1px solid #f2f2f2;
   img{
     width:100%;
   }
@@ -452,7 +453,6 @@ $img:'../image/';
 }
 /* 超实惠*/
 .wapsy{
-   @extend %a;
    margin-top: .12rem;
    border-bottom:1px solid transparent;
 }
@@ -466,11 +466,35 @@ $img:'../image/';
   z-index: 2;
 }
 .sh-inner a{
-    @extend %a;
     border-bottom:1px solid #f2f2f2;
     position: relative;
   }
 /* 生活家*/
 .shj{
-  @extend %a;
+  border-bottom:1px solid #f2f2f2;
+}
+/*banner*/
+.v5-swipe-banner{
+  float: left;
+  width:100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+}
+#v5-banner-pagination{
+  bottom:auto;
+  top:.1rem;
+}
+.tshh-container,.rmsc{
+  width:100%;
+  float: left;
+}
+a .t{
+  height:.7rem;
+  img{
+    width:.44rem;
+    height:.44rem;
+    border-radius: 50%;
+    margin:auto 0;
+  }
 }

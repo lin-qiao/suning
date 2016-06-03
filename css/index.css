@@ -469,11 +469,12 @@ body {
   font-size: .12rem;
 }
 
-.wapsy, .sh-inner a, .shj {
+.adapt {
   display: block;
+  border-bottom: 1px solid #f2f2f2;
 }
 
-.wapsy img, .sh-inner a img, .shj img {
+.adapt img {
   width: 100%;
 }
 
@@ -543,3 +544,36 @@ body {
 }
 
 /* 生活家*/
+.shj {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+/*banner*/
+.v5-swipe-banner {
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+}
+
+#v5-banner-pagination {
+  bottom: auto;
+  top: .1rem;
+}
+
+.tshh-container, .rmsc {
+  width: 100%;
+  float: left;
+}
+
+a .t {
+  height: .7rem;
+}
+
+a .t img {
+  width: .44rem;
+  height: .44rem;
+  border-radius: 50%;
+  margin: auto 0;
+}
